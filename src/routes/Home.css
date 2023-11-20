@@ -1,0 +1,19 @@
+.titulo{
+border: 2px solid #7df5e3;
+padding-left: 5%;
+border-radius: 10px;
+color: #7df5e3;
+margin: auto;
+text-align: center;
+padding: 30px;
+margin-top: 10px;
+max-width: 50%;
+align-items: center;
+}
+.corpo{
+border: 2px solid  #7df5e3;
+margin: 10px;
+background-color: yellow;
+border-radius: 10px;
+padding: 2%;
+}

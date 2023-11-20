@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Josefin+Sans:ital,wght@1,300&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body, html{
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.center{
+    display: flex;
+    margin: 0;
+    padding:0 2%;
+    
+}
+.header{
+    padding: 10px 0;
+    background-color: yellow;
+    border-bottom: 2px solid #7df5e3;
+    border-top: 2px solid #7df5e3;
+
+
+}
+.header__logo{
+    width: 50%;
+
+
+}
+.header__loginForm{
+    width: 50%;
+    text-align: right;
+}
+.header__loginForm form{
+    display: inline-block;
+}
+
+.btn{
+    background-color: aqua;
+    color: yellow;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 35px;
+    text-align: center;
+
+}
+.header__loginForm input[type=submit]{
+    background-color: #7df5e3;
+    color: white;
+    border: 0;
+    height: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.criarConta{
+    display: inline-block;
+    margin-top: 40px;
+}
+.criarConta a{
+    font-size: 20px;
+    margin:0 8px;
+}
+.headerLogado{
+    text-align: right;
+    width: 50%;
+    margin-top: 30px;
+}
+.headerLogado a{
+    margin:0 10px ;
+    background-color: #7df5e3;
+    color: white;
+    height: 20px;
+    padding:3px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+
+}
+.slide-item{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-bottom: 2px solid #7df5e3;
+}
+.nave{
+    display: inline-block;
+    height: 120px;
+  
+}

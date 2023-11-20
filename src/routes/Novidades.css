@@ -1,0 +1,45 @@
+.titulo1{
+    border: 2px solid #7df5e3;
+    padding-left: 5%;
+    border-radius: 10px;
+    color: #7df5e3;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+    max-width: 50%;
+    align-items: center;
+    margin-bottom: 50px;
+
+    }
+.quadros{
+    border: 2px solid #7df5e3;
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 30px;
+    width: 19%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.quadros h2{
+   margin-top: 10px;
+}
+.botao{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.imagens{
+ display: flex;
+ border-radius: 30px;
+ width: 100%;
+ margin-top: 20px;
+ 
+}
